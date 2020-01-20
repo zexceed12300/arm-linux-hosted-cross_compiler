@@ -1,0 +1,15 @@
+### GCC built-in specs
+COLLECT_GCC=aarch64-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=libexec/gcc/aarch64-linux-gnu/4.9.4/lto-wrapper
+Build: arm-linux-gnueabihf
+Host: arm-linux-gnueabihf
+Target: aarch64-linux-gnu
+Configured with: configure --prefix=$PREFIX --target=$TARGET --host=$HOST --build=$BUILD --with-sysroot=$SYSROOT --with-gnu-as --with-gnu-ld --enable-languages=c,c++ disable-ppl-version-check --disable-cloog-version-check --disable-isl-version-check --enable-cloog-backend=isl --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --disable-libssp --enable-threads --disable-libmudflap --disable-libgomp --disable-libstdc__-v3 --disable-sjlj-exceptions --disable-shared --disable-tls --disable-libitm --enable-bionic-libs --disable-libatomic --enable-initfini-array --disable-nls --with-binutils-version=2.33.1 --with-mpfr-version=4.0.2 --with-mpc-version=1.1.0 --with-gmp-version=6.1.2 --with-gcc-version=4.9.4 --with-gdb-version=none --with-isl-version=0.18 --with-cloog-version=0.18.1 --with-ppl-version=0.11 --with-gxx-include-dir=$PREFIX/include/c++/4.9.4 --enable-plugins --enable-gnu-indirect-function --disable-libsanitizer --enable-ld=default --enable-threads --enable-eh-frame-hdr-for-static --enable-fix-cortex-a53-835769 --enable-graphite=yes --with-isl-version=0.11.1 --with-cloog-version=0.18.0 --enable-gold --disable-libquadmath
+
+### Build machine data
+build: linux
+host: arm-linux-gnueabihf
+kernel: 4.9.4-generic
+hostname: kali
+distribution: trusty
+host_gcc: gcc version 4.9.4 (Kali 4.9.4-kali2~2020.1)
