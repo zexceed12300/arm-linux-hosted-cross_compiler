@@ -1,1 +1,3 @@
-
+Release: GCC-4.9.4-aarch64-aarch64-linux-gnu
+HOST: arm-linux-gnueabihf (arm64/armv8-a Instruction Set)
+TARGET: aarch64-linux-gnu (arm64/armv8-a Instruction Set)
